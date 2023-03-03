@@ -6,7 +6,7 @@ const connectDb = require('./Database/Connect')
 const cors = require('cors')
 require('dotenv').config()
 
-
+   
 app.use(express.json())
 app.use('/',route)
 app.use(cors())
